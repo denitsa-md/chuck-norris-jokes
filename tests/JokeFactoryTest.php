@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Denitsa\ChuckNorrisJokes\Tests;
@@ -26,7 +27,7 @@ class JokeFactoryTest extends TestCase
         $chuckNorrisJokes = [
             'Chuck Norris threw a grenade and killed 50 people, then it exploded.',
             'Death once had a near-Chuck-Norris experience.',
-            'Once a cobra bit Chuck Norris\' leg. After five days of excruciating pain, the cobra died.'
+            'Once a cobra bit Chuck Norris\' leg. After five days of excruciating pain, the cobra died.',
         ];
 
         $jokes = new JokeFactory();
